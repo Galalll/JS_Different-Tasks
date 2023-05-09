@@ -1,0 +1,19 @@
+h1 {
+  margin: auto;
+  display: block;
+  width: 10%;
+}
+.prog {
+  background-color: lightgrey;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.par {
+  background-color: aqua;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+}

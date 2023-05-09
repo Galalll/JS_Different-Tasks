@@ -1,0 +1,94 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  position: relative;
+}
+@keyframes Cfade {
+  from {
+    opacity: 40%;
+  }
+  to {
+    opacity: 80%;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Photos h1 {
+  text-align: center;
+  display: inline-block;
+}
+.Photos {
+  position: relative;
+  margin: auto;
+  width: 700px;
+  height: 70vh;
+}
+.image {
+  width: 700px;
+  height: 550px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10%;
+  display: none;
+}
+.fa-solid.fa-chevron-left {
+  padding: 10px;
+  border-radius: 7px;
+  position: absolute;
+  left: 0px;
+  color: white;
+  top: 50%;
+}
+.fa-solid.fa-chevron-right {
+  padding: 10px;
+  border-radius: 7px;
+  position: absolute;
+  right: 0px;
+  color: white;
+  top: 50%;
+}
+.fa-solid.fa-chevron-left:hover {
+  background-color: white;
+  color: black;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.fa-solid.fa-chevron-right:hover {
+  background-color: white;
+  color: black;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.active {
+  display: block;
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin-left: 0.5%;
+}
+.fa-circle {
+  color: gray;
+  opacity: 40%;
+}
+.fa-circle:hover {
+  color: gray;
+  opacity: 80%;
+  animation-name: Cfade;
+  animation-duration: 0.5s;
+}
+.fa-circle.act {
+  color: gray;
+  opacity: 80%;
+  animation-name: Cfade;
+  animation-duration: 0.5s;
+}
